@@ -1,0 +1,7 @@
+{
+  "name": "radioStream",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

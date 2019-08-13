@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            RÁDIO ANCORA
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<h1 class="title">Bem-Vindo à Rádio Ancora</h1>
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6" offset="3">
+                <img src="../../assets/icone.png">
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="6" offset="3">
+                <ion-row>
+                    <ion-col>
+                        <ion-button color="primary" (click)="ligarSom()"><img src="../../assets/play.png" width="50px"
+                                style="padding: 10px;"> </ion-button>
+                    </ion-col>
+                    <ion-col>
+                        <ion-button color="danger" (click)="pararSom()"><img src="../../assets/pause.png" width="50px"
+                                style="padding: 10px;"></ion-button>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
